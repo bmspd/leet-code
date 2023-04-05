@@ -1,21 +1,5 @@
-class ListNode {
-      val: number
-      next: ListNode | null
-      constructor(val?: number, next?: ListNode | null) {
-          this.val = (val===undefined ? 0 : val)
-          this.next = (next===undefined ? null : next)
-      }
-}
-
-function printListNode(list: ListNode): void {
-  let ptr = list;
-  let res = ''
-  while(ptr) {
-    res += `${ptr.val}${ptr.next ? '->' : '.'}`
-    ptr = ptr.next
-  }
-  console.log(res)
-}
+import {ListNode} from "../utils/entities/ListNode";
+import {printListNode} from "../utils/helpers/linked-list/index";
 
 function getNumberFromList(list: ListNode):number {
   let ptr = list
