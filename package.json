@@ -18,6 +18,11 @@
     "url": "https://github.com/bmspd/leet-code/issues"
   },
   "homepage": "https://github.com/bmspd/leet-code#readme",
-  "devDependencies": {},
-  "dependencies": {}
+  "devDependencies": {
+    "@types/lodash": "^4.14.194",
+    "@types/node": "^18.15.12"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
