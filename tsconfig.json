@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
     "lib": ["es2017", "dom", "es6", "es2019"],
-    "target": "es5",
+    "target": "es2017",
     "moduleResolution": "node",
     "baseUrl": ".",
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "module": "ESNext"
   },
 }
